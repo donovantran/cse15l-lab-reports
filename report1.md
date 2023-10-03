@@ -1,3 +1,3 @@
-#Lab Report 1
+# Lab Report 1
 ---
-##Examples with `cd`.
+## Examples with `cd`.
