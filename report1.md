@@ -11,13 +11,13 @@ This lab report consist of giving exmaples of `cd`, `ls` and `cat` in the follow
 
 Working Directory: /home
 
-1. This is an example of using the `cd` command without any arguments. As you can see there are no change in the path, as the directory has not changed. There was not an error, but there was no change in the path. This is because the `cd` command changes the current working directory, which in this case would be `/home`. And since we did not provide a relative path or an absolute path, `cd` doesn't perform it's intended function.
+1. This is an example of using the `cd` command without any argument. The command `cd` means "change directory". Since we are already in the /home directory, there was no change in the working directory, however this may not always be the case. If were in a diffrent directory, and we used the `cd` command without any arugments, it would change the directory to the /home directory. The output we recieved was not an error. 
 
 ![Image](cd2.png)
 
 Working Directory: /home -> /lecture1 
 
-2. The next image is an example of using `cd` command with a path to a directory as an argument. Here, we can see that the path now lists as "/lecture1". We can now interact with the files that are within the directory "lecture1".
+2. The next image is an example of using `cd` command with a path to a directory as an argument. Here, we can see that the path now lists as "/lecture1". We can now interact with the files that are within the directory "lecture1". There was no error when running the `ls` command with a directory as an argument. 
 
 ![Image](cd3.png)
 
@@ -30,8 +30,7 @@ Working Directory: /lecture1
 
 Working Directory: /home
 
-1. `ls` in this situation shows all the directory in `/home`, which in this particular case only has "lecture1". `ls` is used to list all the directories in the path.
-
+1. `ls` in this situation shows all the directory in `/home`, which in this particular case only has "lecture1". The 'ls' command in general is used to show all the files within a directory or path. In other cases, there may be more files or directories within the given working directory. In those cases, there may be more displayed when running the command `ls`.
 ![Image](ls2.png)
 
 Working Directory: /home 
@@ -54,7 +53,7 @@ Working Directory: /home
 
 ![Image](cat2.png)
 
-Working Directory: /home
+Working Directory: /lecture1
 
 2. Using `cat` with a directory as an arugment, causes the terminal to print out a statement that tells the user that the arugment entered is a directory. In the particular case above, the arugment was "messages" which is indeed a directory, this means that it cannot print out anything other than the fact that it is a directory. 
 
