@@ -15,13 +15,13 @@ Working Directory: /home
 
 ![Image](cd2.png)
 
-Working Directory: /home -> /lecture1 
+Working Directory: /home/lecture1 
 
 2. The next image is an example of using `cd` command with a path to a directory as an argument. Here, we can see that the path now lists as "/lecture1". We can now interact with the files that are within the directory "lecture1". There was no error when running the `ls` command with a directory as an argument. 
 
 ![Image](cd3.png)
 
-Working Directory: /lecture1
+Working Directory: /home/lecture1
 
 3. The final image for the `cd` demonstrates what happens when trying to use a file as an argument. It gives an error because the file, in this case, "Hello.class" is not a directory. `cd` interacts with changing the path of directories, not files. 
 
@@ -39,7 +39,7 @@ Working Directory: /home
 
 ![Image](ls3.png)
 
-Working Directory: /lecture1
+Working Directory: /home/lecture1
 
 3. `ls` allows the user to see what is in the file of a given a path, however, if there is not anything within that file or directory, it will print out the entered arugment. In this particular case, since we are within the lecture1 directory and inputed "Hello.class" as the argument, the terminal printed "Hello.class" back to us. This is the correct output, meaning there was no error that occured.
 
@@ -53,13 +53,13 @@ Working Directory: /home
 
 ![Image](cat2.png)
 
-Working Directory: /lecture1
+Working Directory: /home/lecture1
 
 2. Using `cat` with a directory as an arugment, causes the terminal to print out a statement that tells the user that the arugment entered is a directory. In the particular case above, the arugment was "messages" which is indeed a directory, this means that it cannot print out anything other than the fact that it is a directory. This is indeed an error message that was outputed.
 
 ![Image](cat3.png)
 
-Working Directory: /lecture1
+Working Directory: /home/lecture1
 
 3. Inputing a file as an argument will cause the `cat` command to print out the contents of that file. For the image above, the arugment was the java file "Hello.java". The `cat` file would then print out the contents within that file. Another example would be using the `cat` command on the txt file "Hello.txt", it would print out "Hello World!". No error occured when running the `cat` command with a file.
 
