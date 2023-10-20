@@ -19,7 +19,7 @@ Working Directory: /home/lecture1
 
 2. The next image is an example of using `cd` command with a path to a directory as an argument. Here, we can see that the path now lists as "/lecture1". We can now interact with the files that are within the directory "lecture1". There was no error when running the `ls` command with a directory as an argument. 
 
-![Image](cd3.png)
+![Image](3.png)
 
 Working Directory: /home/lecture1/messages
 
