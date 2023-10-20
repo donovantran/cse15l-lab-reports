@@ -37,7 +37,7 @@ Working Directory: /home
 
 2. When adding a path to a directory as an arugment for the command `ls`, you can list out all the files that are within that directory. In this specific case, we were able to show what was in the directory "lecture1". The terminal showed us "Hello.class", Hello.java", "messages", and "README". This was the expected output when using the `ls` command with a directory as an arugment. 
 
-![Image](s3.png)
+![Image](ls3.png)
 
 Working Directory: /home/lecture1
 
