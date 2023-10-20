@@ -21,7 +21,7 @@ Working Directory: /home/lecture1
 
 ![Image](cd3.png)
 
-Working Directory: /home/lecture1
+Working Directory: /home/lecture1/messages
 
 3. The final image for the `cd` demonstrates what happens when trying to use a file as an argument. It gives an error because the file, in this case, "Hello.class" is not a directory. `cd` interacts with changing the path of directories, not files. 
 
@@ -41,7 +41,7 @@ Working Directory: /home
 
 Working Directory: /home/lecture1
 
-3. `ls` allows the user to see what is in the file of a given a path, however, if there is not anything within that file or directory, it will print out the entered arugment. In this particular case, since we are within the lecture1 directory and inputed "Hello.class" as the argument, the terminal printed "Hello.class" back to us. This is the correct output, meaning there was no error that occured.
+3. `ls` allows the user to see what is in the file of a given a path, however, if there is not anything within that file or directory, it will print out the entered arugment. In this particular case, since we are within the lecture1 directory and inputed "en-us.txt" as the argument, the terminal printed "en-us.txt" back to us. This is the correct output, meaning there was no error that occured.
 
 
 ## Examples with `cat`
